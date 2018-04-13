@@ -1,0 +1,15 @@
+{
+  "name": "benchmarks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --max-old-space-size=4096 index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jan Jorgensen <jandjorgensen@gmail.com> (http://ramblinjan.com)",
+  "license": "ISC",
+  "dependencies": {
+    "benchmark": "^2.1.4"
+  }
+}
